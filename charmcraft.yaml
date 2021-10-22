@@ -1,0 +1,10 @@
+# Copyright 2021 Canonical Ltd.
+# See LICENSE file for licensing details.
+type: charm
+bases:
+    - name: "ubuntu"
+      channel: "18.04"
+parts:
+  charm:
+    build-packages:
+      - git
